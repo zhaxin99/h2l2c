@@ -1,0 +1,5 @@
+library(tidyverse)
+data("USArrests")
+USArrests%>%ggplot(aes(Rape,UrbanPop))+geom_col()
+USArrests%>%ggplot(aes(Murder,UrbanPop))+geom_point()
+USArrests%>%ggplot(aes(Assault))+geom_histogram()
