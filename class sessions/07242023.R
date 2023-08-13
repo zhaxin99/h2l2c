@@ -1,0 +1,6 @@
+print("Hello World)")
+install.packages("tidyverse")
+library(tidyverse)
+df<-tibble(name="Cindy",age="23",eye_color="brown",driver="yes",height="165",units="cm",favorite_pet="dog")
+print(df)
+write_csv(df,"/Users/xindi/Documents/Cindy/h2ltc/demographics_table.csv")
